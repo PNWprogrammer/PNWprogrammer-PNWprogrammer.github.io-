@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>&#x1F332; Austin Davis &#x1F332;</title>
-		<link rel="stylesheet" type="text/css" href="../CSS/Austin_Davis.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/Austin_Davis.css">
 	</head>
 
 <!-- Body -->
