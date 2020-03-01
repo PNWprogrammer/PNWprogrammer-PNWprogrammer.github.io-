@@ -9,7 +9,7 @@ html {
 	  opacity: 1; /* This and transition affect the page loading fade in effect */
 	  transition: 3s opacity; /* This causes a 3 second fade in, you can change this time if you choose */
 	  letter-spacing: .2vw;
-	  font-family: Avant Garde, Helvetica; 
+	  font-family: 'Courier New', Courier, monospace; 
 	  font-size: 1.5vw;
 	  
 	  }
@@ -23,7 +23,7 @@ html {
   /* Navbar */
   .Navbar {
 	  overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-	  background-color: black; /* This colors the navbar black */
+	  background-color: #8D8741; /* This colors the navbar black */
 	  position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	  top: 0; /* This ensures no space is displayed above the navbar */
 	  width: 100%; /* This makes the navbar span the entire width of the page */
@@ -40,7 +40,7 @@ html {
 	  color: white; /* This is the font color for text on our navbar */
 	  padding: .75vw 1vw; /* This adds padding around our text */
 	  text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-	  font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+	  font-family: 'Courier New', Courier, monospace; /* This specifies the font family for text on our navbar */
 	  font-size: 1.5vw; /* This specifies the font size for text on our navbar */
 	  text-align: center; /* This centers the text within its container */
 	  position: relative;
@@ -70,7 +70,7 @@ html {
   
   /* Navbar hover effect */
   .Navbar a:hover {
-	background-color: #F4F4F4; /*  This defines the background color that will display when you hover over the text on the navbar */
+	background-color: #F8E9A1; /*  This defines the background color that will display when you hover over the text on the navbar */
 	color: black; /* This defines the font color that will display when you hover over the text on the navbar */ 
 	font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 	cursor: pointer;
@@ -80,7 +80,8 @@ html {
   
   /* Navbar home button */
   .Navbar a.active { /* The active selector styles a link */
-	background-color: darkgray;  /* This specifies the background color behind the Home button on the navbar */ 
+	background-color:#F8E9A1;  /* This specifies the background color behind the Home button on the navbar */
+	color: black; 
   }
   
   /* This causes the video to zoom out from a zoomed in position upon page load */
@@ -106,8 +107,9 @@ html {
   
   /* Text over the video */ 
   .Video_Text { 
-	  background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
-	  color: white; 
+	  background: #659DBD; /* This provides a semi-transparent background for the text to sit over */
+	  opacity: 0.75;
+	  color: black; 
 	  width: 100%;
 	  padding-top: .1vh; /* This adds padding around the text so that the background goes slightly beyond the text */
 	  padding-bottom: 1vh;
@@ -128,12 +130,12 @@ html {
   }
   
   @-webkit-keyframes fade {
-	from {opacity: .4} 
+	from {opacity: .8} 
 	to {opacity: 1}
   }
   
   @keyframes fade {
-	from {opacity: .4} 
+	from {opacity: .} 
 	to {opacity: 1}
   }
   
@@ -192,7 +194,7 @@ html {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: 'Courier New', Courier, monospace;
 	letter-spacing: .1vw; 
 	font-size: 1.5vw;
 	background-color: rgba(0,0,0,0.75);
@@ -205,7 +207,7 @@ html {
 	color: white;
 	position: absolute;
 	top: 0;
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: 'Courier New', Courier, monospace;
 	letter-spacing: .1vw; 
 	font-size: 1.5vw;
 	font-weight: bold;
@@ -248,7 +250,7 @@ html {
 	  float: left;  
 	  width: 50%; /* This ensures one column takes up half the page width */
 	  padding: 1.6%; 
-	  background-color: #f2f2f2; 
+	  background-color: #DAAD86; 
 	  height: 448px; /* You may need to adjust this to fit your content */
   }
   
@@ -257,7 +259,7 @@ html {
 	  width: 50%;
 	  padding: 1.6%;
 	  height: 448px; /* You may need to adjust this to fit your content */
-	  background-color: #4d4d4d;
+	  background-color: #659DBD;
   }
   
   .Row:after { /* This inserts something after the content of selected elements */
@@ -269,7 +271,7 @@ html {
   /* Heading 1 elements */
   h1 {
 	  text-transform: uppercase; /* We are capitalizing our headings */
-	  font-family: "Trebuchet MS", Optima; 
+	  font-family: 'Courier New', Courier, monospace; 
 	  text-align: center;
 	  margin-top: 3%; /* We are adding a small margin above the headings */
 	  color: #1a1a1a;
@@ -277,17 +279,17 @@ html {
   
   /* Paragraph elements */
   p {
-	  font-family: Perpetua, Rockwell Extra Bold;
+	  font-family: 'Courier New', Courier, monospace;
 	  text-align: justify;
 	  letter-spacing: .1vw; /* This expands the text slightly */
-	  font-size: 1.5vw;
+	  font-size: 1.25vw;
 	  padding-left: 1vw;
 	  padding-right: 1vw;
   }
   
   /* Center align elements - this embraces all centered text */
   center {
-	  font-family: Perpetua, Rockwell Extra Bold;
+	  font-family: 'Courier New', Courier, monospace;
 	  text-align: center;
 	  letter-spacing: .1vw;
 	  font-size: 1.5vw;
@@ -356,7 +358,7 @@ html {
 	bottom: 1.75vw;
 	right: 1.75vw;
 	width: 25vw;  
-	background-color: white;
+	background-color: #F8E9A1;;
 	color: black;
 	border: solid;
 	cursor: pointer;
@@ -367,7 +369,7 @@ html {
   
   /* The popup form - hidden by default */
   .form-popup {
-	border: 3px solid #f0f1f0;
+	border: 3px solid #24305E;
 	z-index: 8;
 	display: none;
 	position: fixed;
@@ -379,7 +381,7 @@ html {
   .form-container {
 	max-width: 49vw;
 	padding: 9px;
-	background-color: white;
+	background-color: #F8E9A1;;
   }
   
   /* Input fields */
@@ -442,5 +444,7 @@ html {
   /* Footer element */
   footer {
 	  padding: 2%;
-	  background-color:white;
+	  font-family: 'Courier New', Courier, monospace;
+	  color: white;
+	  background-color: #8D8741;
   }
