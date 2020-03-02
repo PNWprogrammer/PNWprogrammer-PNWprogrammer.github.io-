@@ -33,3 +33,8 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
   this.Close();
 }
+
+$( "html,h4,.wrapper" ).click(function() {
+//location.reload(); 
+ $(".wrapper").load(" .wrapper > *"); 
+});
